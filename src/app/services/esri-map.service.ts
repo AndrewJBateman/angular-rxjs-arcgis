@@ -21,9 +21,9 @@ export class EsriMapService {
     { id: 7, name: "La Bastida", coordinates: [37.760232, -1.558331] },
   ];
 
-  wonderCoordinates;
+  wonderCoordinates: any;
 
-  panToWonder(wonderCoordinates) {
+  panToWonder(wonderCoordinates: any) {
     this.wonderCoordinates = wonderCoordinates;
     this.panRequest.next();
   }

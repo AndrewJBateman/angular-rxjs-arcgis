@@ -14,7 +14,7 @@ export class EsriMapComponent implements OnInit {
 
   constructor(private mapService: EsriMapService) {}
 
-  panMap(coordinates) {
+  panMap(coordinates: string) {
     this.mapView.goTo(coordinates).then(() => {
       this.mapView.zoom = 18;
       setTimeout(() => {
@@ -23,28 +23,27 @@ export class EsriMapComponent implements OnInit {
     });
   }
 
-  public ngOnInit() {
+  public async ngOnInit() {
     this.panRequestSubscription = this.mapService.panRequest.subscribe(() => {
       this.panMap(this.mapService.wonderCoordinates);
     });
 
     // use esri-loader to load JSAPI modules
-    return loadModules(["esri/Map", "esri/views/SceneView", "esri/Graphic"])
-      .then(([Map, MapView, Graphic]) => {
-        const map: __esri.Map = new Map({
-          basemap: "hybrid",
-          ground: "world-elevation",
-        });
-
-        this.mapView = new MapView({
-          container: this.viewNode.nativeElement,
-          center: [-12.287, -37.114],
-          zoom: 12,
-          map: map,
-        });
-      })
-      .catch((err) => {
-        console.log(err);
+    try {
+      const [Map, MapView] = await loadModules(["esri/Map", "esri/views/SceneView", "esri/Graphic"]);
+      const map: __esri.Map = new Map({
+        basemap: "hybrid",
+        ground: "world-elevation",
       });
+
+      this.mapView = new MapView({
+        container: this.viewNode.nativeElement,
+        center: [-12.287, -37.114],
+        zoom: 12,
+        map: map,
+      });
+    } catch (err) {
+      console.log(err);
+    }
   }
 }

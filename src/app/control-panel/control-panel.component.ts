@@ -9,14 +9,14 @@ import { EsriMapService } from "../services/esri-map.service";
   styleUrls: ["./control-panel.component.css"],
 })
 export class ControlPanelComponent implements OnInit, OnDestroy {
-  feedback;
+  feedback: string;
   sevenWonders = this.mapService.sevenWonders;
   panCompleteSubscription: Subscription;
   wonderFormSubscription: Subscription;
 
   wonderForm = new FormControl("");
 
-  disablePanel(name) {
+  disablePanel(name: string) {
     this.wonderForm.disable({ emitEvent: false });
     this.feedback = "Panning to " + name + ".";
   }
