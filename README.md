@@ -22,8 +22,8 @@
 ## :books: General info
 
 * [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
-* ArcGIS for Developers offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
-* RxJS state management
+* [ArcGIS for Developers](https://developers.arcgis.com/) offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
+* RxJS subscriptions objects used to represents the execution of observables
 
 ## :camera: Screenshots
 
@@ -33,7 +33,7 @@
 
 * [Angular v11](https://angular.io/)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
-* [esri-loader v2.6.0](https://github.com/Esri/esri-loader) library to use the ArcGIS API for JavaScript
+* [Esri-loader v2.6.0](https://github.com/Esri/esri-loader) library to use the ArcGIS API for JavaScript
 * [ArcGIS API for JavaScript v4.18](https://developers.arcgis.com/javascript/) mapping and analytics software
 * [@types/arcgis-js-api v4.18.0](https://www.npmjs.com/package/@types/arcgis-js-api) type definitions for ArcGIS API for JavaScript
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle async operations using observables
@@ -43,7 +43,8 @@
 
 * Install dependencies by running `npm i`
 * Run `ng test` for Jasmine tests carried out in Karma console
-* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+* The app will automatically reload if you change any of the source files
 
 ## :flashlight: Testing
 
