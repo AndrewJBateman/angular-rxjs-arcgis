@@ -14,6 +14,7 @@ export class ControlPanelComponent implements OnInit, OnDestroy {
   panCompleteSubscription: Subscription;
   wonderFormSubscription: Subscription;
 
+  // Instantiate a FormControl, with an initial value of nothing.
   wonderForm = new FormControl("");
 
   disablePanel(name: string) {
@@ -38,7 +39,9 @@ export class ControlPanelComponent implements OnInit, OnDestroy {
 
     this.wonderFormSubscription = this.wonderForm.valueChanges.subscribe(
       (wonder) => {
-        // verify that a wonder is selected
+        console.log("location selected:", this.sevenWonders[wonder].name);
+
+        // verify that a location is selected
         if (!wonder) {
           return;
         }
@@ -52,6 +55,7 @@ export class ControlPanelComponent implements OnInit, OnDestroy {
     );
   }
 
+  // clean up any subscriptions
   ngOnDestroy() {
     this.panCompleteSubscription.unsubscribe();
     this.wonderFormSubscription.unsubscribe();
