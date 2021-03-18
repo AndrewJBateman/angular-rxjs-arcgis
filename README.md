@@ -33,7 +33,7 @@
 
 * [Angular v11](https://angular.io/)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
-* [Esri-loader v2.6.0](https://github.com/Esri/esri-loader) library to use the ArcGIS API for JavaScript
+* [Esri-loader v3](https://github.com/Esri/esri-loader) library to use the ArcGIS API for JavaScript
 * [ArcGIS API for JavaScript v4.18](https://developers.arcgis.com/javascript/) mapping and analytics software
 * [@types/arcgis-js-api v4.18.0](https://www.npmjs.com/package/@types/arcgis-js-api) type definitions for ArcGIS API for JavaScript
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle async operations using observables
