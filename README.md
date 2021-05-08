@@ -1,6 +1,7 @@
 # :zap: Angular RxJS ArcGIS
 
-* Angular app using RxJS operators and the ArcGIS API mapping solution from [Esri](https://www.esri.com/en-us/home) with [esri-loader](https://github.com/Esri/esri-loader)
+* Angular app using RxJS operators and the ArcGIS API mapping solution from [Esri](https://www.esri.com/en-us/home) with [esri-loader](https://github.com/Esri/esri-loader).
+* Code by Andy Gupp at esri - see [:clap: Inspiration](#clap-inspiration) below - updated to the latest Angular version
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -23,7 +24,8 @@
 
 * [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
 * [ArcGIS for Developers](https://developers.arcgis.com/) offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
-* RxJS subscriptions objects used to represents the execution of observables
+* RxJS subscriptions objects used to represents the execution of observables.
+* Note: RxJS version 6.6.6 used - do not update to v7 as it is is not compatible with Angular v11
 
 ## :camera: Screenshots
 
@@ -37,7 +39,6 @@
 * [ArcGIS API for JavaScript v4.18](https://developers.arcgis.com/javascript/) mapping and analytics software
 * [@types/arcgis-js-api v4.18.0](https://www.npmjs.com/package/@types/arcgis-js-api) type definitions for ArcGIS API for JavaScript
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle async operations using observables
-* [Calcite Web css framework v1.2.5](https://esri.github.io/calcite-web/documentation/) a web adaptation of Calcite, the desktop framework developed for ArcGIS Pro. Referenced directly from the CDN in `src/styles.css`
 
 ## :floppy_disk: Setup
 
