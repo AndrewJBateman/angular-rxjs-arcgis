@@ -1,7 +1,7 @@
 # :zap: Angular RxJS ArcGIS
 
 * Angular app using RxJS operators and the ArcGIS API mapping solution from [Esri](https://www.esri.com/en-us/home) with [esri-loader](https://github.com/Esri/esri-loader).
-* Code by Andy Gupp at esri - see [:clap: Inspiration](#clap-inspiration) below - updated to the latest Angular version
+* Code by Andy Gupp at esri - see [:clap: Inspiration](#clap-inspiration) below - updated to the latest Angular/dependency versions
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -18,6 +18,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -25,7 +26,7 @@
 * [ArcGIS API for Javascript CDN](https://developers.arcgis.com/javascript/latest/guide/get-api/#cdn) link in `esri-map` component.
 * [ArcGIS for Developers](https://developers.arcgis.com/) offers a full suite of tools and resources to build mapping and analytics solutions. Use ArcGIS APIs to create location-based applications for web, desktop, and mobile devices.
 * RxJS subscriptions objects used to represents the execution of observables.
-* Note: RxJS version 6.6.6 used - do not update to v7 as it is is not compatible with Angular v11
+* Note: RxJS version 6.6.6 used - do not update to v7 as it is not compatible with Angular v11
 
 ## :camera: Screenshots
 
@@ -81,6 +82,10 @@ panMap(coordinates: string) {
 * [ArcGIS API for JavaScript: Building Apps with Angular](https://www.youtube.com/watch?v=ea4D-qGU0_0)
 * [#ANGULAR, Deploying an Angular App to Firebase Hosting](https://alligator.io/angular/deploying-angular-app-to-firebase/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
