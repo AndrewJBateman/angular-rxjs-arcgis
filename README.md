@@ -2,8 +2,12 @@
 
 * Angular app using RxJS operators and the ArcGIS API mapping solution from [Esri](https://www.esri.com/en-us/home) with [esri-loader](https://github.com/Esri/esri-loader).
 * Code by Andy Gupp at esri - see [:clap: Inspiration](#clap-inspiration) below - updated to the latest Angular/dependency versions
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-rxjs-arcgis?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-rxjs-arcgis?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-rxjs-arcgis?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-rxjs-arcgis?style=plastic)
 
 ## :page_facing_up: Table of contents
 
