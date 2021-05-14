@@ -38,7 +38,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 * [Angular Formcontrol](https://angular.io/api/forms/FormControl)
 * [Esri-loader v3](https://github.com/Esri/esri-loader) library to use the ArcGIS API for JavaScript
 * [ArcGIS API for JavaScript v4.18](https://developers.arcgis.com/javascript/) mapping and analytics software
